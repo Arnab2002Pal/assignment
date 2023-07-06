@@ -1,0 +1,23 @@
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(57, 240, 57);
+
+    animation: bounce 1.25s ease-in infinite;
+    /* transition-timing-function: ease-in-out; */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+      }
+    
+      50% {
+        transform: translateY(-20px);
+      }
+  }
